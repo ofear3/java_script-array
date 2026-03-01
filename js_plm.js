@@ -80,7 +80,7 @@ if (isPrime) {
 ‎}
 
 
-‎// 6. Write a JavaScript program to check if a number is positive, negative or zero.
+‎//  Write a JavaScript program to check if a number is positive, negative or zero.
 ‎
 ‎let n = -5;
 ‎
@@ -91,3 +91,12 @@ if (isPrime) {
 ‎} else {
 ‎    console.log("Zero");
 ‎}
+
+‎//  Write a JavaScript program to print multiplication table of 5.
+‎
+‎let table = 5;
+‎
+‎for (let i = 1; i <= 10; i++) {
+‎    console.log(table + " x " + i + " = " + (table * i));
+‎}
+‎
