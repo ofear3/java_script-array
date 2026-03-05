@@ -136,3 +136,16 @@ if (isPrime) {
 ‎}
 ‎
 ‎console.log("Largest number: " + max);
+
+
+‎// Write a JavaScript program to find the smallest number in an array.
+‎
+‎let min = arr[0];
+‎
+‎for (let i = 1; i < arr.length; i++) {
+‎    if (arr[i] < min) {
+‎        min = arr[i];
+‎    }
+‎}
+‎
+‎console.log("Smallest number: " + min);
