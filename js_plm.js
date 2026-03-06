@@ -149,3 +149,20 @@ if (isPrime) {
 ‎}
 ‎
 ‎console.log("Smallest number: " + min);
+
+
+‎// Write a JavaScript program to check if a string is palindrome.
+‎
+‎let word = "madam";
+‎let rev = "";
+‎
+‎for (let i = word.length - 1; i >= 0; i--) {
+‎    rev += word[i];
+‎}
+‎
+‎if (word === rev) {
+‎    console.log("Palindrome");
+‎} else {
+‎    console.log("Not Palindrome");
+‎}
+‎
