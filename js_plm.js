@@ -168,6 +168,8 @@ if (isPrime) {
 ‎
 ‎//  Write a JavaScript program to find the sum of elements in an array.
 ‎
+let arr = [1,2,3,4,5]
+
 ‎let total = 0;
 ‎
 ‎for (let i = 0; i < arr.length; i++) {
@@ -175,3 +177,14 @@ if (isPrime) {
 ‎}
 ‎
 ‎console.log("Array sum: " + total);
+
+‎//  Write a JavaScript program to swap two numbers.
+‎
+‎let x = 5;
+‎let y = 10;
+‎
+‎let temp = x;
+‎x = y;
+‎y = temp;
+‎
+‎console.log("x: " + x + ", y: " + y);
