@@ -188,3 +188,22 @@ let arr = [1,2,3,4,5]
 ‎y = temp;
 ‎
 ‎console.log("x: " + x + ", y: " + y);
+
+‎// Write a JavaScript program to check if a number is prime.
+‎
+‎let prime = 7;
+‎let isPrime = true;
+‎
+‎for (let i = 2; i < prime; i++) {
+‎    if (prime % i === 0) {
+‎        isPrime = false;
+‎        break;
+‎    }
+‎}
+‎
+‎if (isPrime && prime > 1) {
+‎    console.log("Prime");
+‎} else {
+‎    console.log("Not Prime");
+‎}
+‎
