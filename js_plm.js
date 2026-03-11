@@ -213,3 +213,10 @@ let arr = [1,2,3,4,5]
 ‎    console.log("Square of " + i + " is: " + (i * i));
 ‎}
 ‎
+‎// Write a JavaScript program to convert Celsius to Fahrenheit.
+‎
+‎let celsius = 25;
+‎let fahrenheit = (celsius * 9/5) + 32;
+‎
+‎console.log("Fahrenheit: " + fahrenheit);
+‎
