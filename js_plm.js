@@ -220,3 +220,12 @@ let arr = [1,2,3,4,5]
 ‎
 ‎console.log("Fahrenheit: " + fahrenheit);
 ‎
+‎ Write a JavaScript program to check if a year is leap year.
+‎
+‎let year = 2024;
+‎
+‎if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+‎    console.log("Leap Year");
+‎} else {
+‎    console.log("Not Leap Year");
+‎}
