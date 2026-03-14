@@ -243,4 +243,16 @@ let arr = [1,2,3,4,5]
 ‎    console.log(next);
 ‎    f1 = f2;
 ‎    f2 = next;
+‎}‎
+‎
+‎// Write a JavaScript program to count digits of a number.
+‎
+‎let digitNumber = 12345;
+‎let digitCount = 0;
+‎
+‎while (digitNumber > 0) {
+‎    digitCount++;
+‎    digitNumber = Math.floor(digitNumber / 10);
 ‎}
+‎
+‎console.log("Digit count: " + digitCount);
