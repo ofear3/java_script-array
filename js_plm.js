@@ -256,3 +256,9 @@ let arr = [1,2,3,4,5]
 ‎}
 ‎
 ‎console.log("Digit count: " + digitCount);
+
+‎//  Write a JavaScript program to find the square of numbers from 1 to 10.
+‎
+‎for (let i = 1; i <= 10; i++) {
+‎    console.log(i + " square = " + (i * i));
+‎}
