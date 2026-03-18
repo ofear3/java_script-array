@@ -274,3 +274,16 @@ let arr = [1,2,3,4,5]
 ‎for (let i = 10; i >= 1; i--) {
 ‎    console.log(i);
 ‎}
+
+‎// 24. Write a JavaScript program to find the sum of even numbers from 1 to 20.
+‎
+‎let sumEven = 0;
+‎
+‎for (let i = 1; i <= 20; i++) {
+‎    if (i % 2 === 0) {
+‎        sumEven += i;
+‎    }
+‎}
+‎
+‎console.log("Sum of even numbers: " + sumEven);
+‎
