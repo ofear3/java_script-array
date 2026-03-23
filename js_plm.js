@@ -328,3 +328,9 @@ let arr = [1,2,3,4,5]
 ‎console.log("x = " + x);
 ‎console.log("y = " + y);
 
+‎
+‎//  Write a JavaScript program to find the length of a string.
+‎
+‎let str = "JavaScript";
+‎
+‎console.log("Length = " + str.length);
