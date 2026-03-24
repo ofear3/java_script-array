@@ -334,3 +334,13 @@ let arr = [1,2,3,4,5]
 ‎let str = "JavaScript";
 ‎
 ‎console.log("Length = " + str.length);
+
+
+‎//  Write a JavaScript program to convert Celsius to Fahrenheit.
+‎
+‎let celsius = 25;
+‎
+‎let fahrenheit = (celsius * 9/5) + 32;
+‎
+‎console.log("Fahrenheit = " + fahrenheit);
+‎
