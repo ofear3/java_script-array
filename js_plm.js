@@ -7,7 +7,7 @@ for (let i = 1; i <= number; i++) {
     factorial = factorial * i;
 }
 
-console.log("Factorial of " + number + " is: " + factorial);
+console.log("Factorial of " + number + " is: i" + factorial);
 
 
 // Write a JavaScript program to check whether a given number is a prime number.
@@ -343,4 +343,18 @@ let arr = [1,2,3,4,5]
 ‎let fahrenheit = (celsius * 9/5) + 32;
 ‎
 ‎console.log("Fahrenheit = " + fahrenheit);
+‎
+
+‎//  Write a JavaScript program to find the sum of digits of a number.
+‎
+‎let number = 1234;
+‎let sum = 0;
+‎
+‎while (number > 0) {
+‎    sum += number % 10;
+‎    number = Math.floor(number / 10);
+‎}
+‎
+‎console.log("Sum of digits = " + sum);
+‎
 ‎
