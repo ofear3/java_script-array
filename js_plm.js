@@ -370,3 +370,13 @@ let arr = [1,2,3,4,5]
 ‎} else {
 ‎    console.log("Largest = " + n3);
 ‎}
+
+‎//  Write a JavaScript program to check if a number is divisible by 5.
+‎
+‎let num = 20;
+‎
+‎if (num % 5 === 0) {
+‎    console.log("Divisible by 5");
+‎} else {
+‎    console.log("Not divisible by 5");
+‎}
