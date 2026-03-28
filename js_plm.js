@@ -380,3 +380,9 @@ let arr = [1,2,3,4,5]
 ‎} else {
 ‎    console.log("Not divisible by 5");
 ‎}
+
+‎//  Write a JavaScript program to print numbers from 1 to 100.
+‎
+‎for (let i = 1; i <= 100; i++) {
+‎    console.log(i);
+‎}
