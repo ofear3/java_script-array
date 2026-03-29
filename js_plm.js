@@ -386,3 +386,10 @@ let arr = [1,2,3,4,5]
 ‎for (let i = 1; i <= 100; i++) {
 ‎    console.log(i);
 ‎}
+
+‎//  Write a JavaScript program to print the first 10 multiples of 3.
+‎
+‎for (let i = 1; i <= 10; i++) {
+‎    console.log(3 * i);
+‎}
+‎
