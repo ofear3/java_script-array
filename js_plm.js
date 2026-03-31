@@ -403,3 +403,16 @@ let arr = [1,2,3,4,5]
 ‎    console.log("Not a Leap Year");
 ‎}
 ‎‎
+‎//  Write a JavaScript program to find the maximum number in an array.
+‎
+‎let arr = [10, 5, 30, 25, 15];
+‎
+‎let max = arr[0];
+‎
+‎for (let i = 1; i < arr.length; i++) {
+‎    if (arr[i] > max) {
+‎        max = arr[i];
+‎    }
+‎}
+‎
+‎console.log("Maximum = " + max);
