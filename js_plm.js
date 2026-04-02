@@ -429,4 +429,17 @@ let arr = [1,2,3,4,5]
 ‎
 ‎console.log("Minimum = " + min);
 ‎
+‎‎// Write a JavaScript program to count vowels in a string.
+‎
+‎let text = "Hello World";
+‎let count = 0;
+‎
+‎for (let i = 0; i < text.length; i++) {
+‎    let ch = text[i].toLowerCase();
+‎    if (ch === "a" || ch === "e" || ch === "i" || ch === "o" || ch === "u") {
+‎        count++;
+‎    }
+‎}
+‎
+‎console.log("Vowel count = " + count);
 ‎
