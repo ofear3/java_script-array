@@ -442,4 +442,20 @@ let arr = [1,2,3,4,5]
 ‎}
 ‎
 ‎console.log("Vowel count = " + count);
+
+
+
+‎//  Write a JavaScript program to reverse a number.
+‎
+‎let num1 = 12345;
+‎let rev = 0;
+‎
+‎while (num1 > 0) {
+‎    rev = rev * 10 + (num1 % 10);
+‎    num1 = Math.floor(num1 / 10);
+‎}
+‎
+‎console.log("Reversed number = " + rev);
+‎
+‎
 ‎
