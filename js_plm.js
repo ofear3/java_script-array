@@ -473,3 +473,15 @@ let arr = [1,2,3,4,5]
 ‎
 ‎console.log("Duplicates:", duplicates);
 ‎
+‎//  Write a JavaScript program to remove duplicates from an array.
+‎
+‎let unique = [];
+‎
+‎for (let i = 0; i < arr1.length; i++) {
+‎    if (!unique.includes(arr1[i])) {
+‎        unique.push(arr1[i]);
+‎    }
+‎}
+‎
+‎console.log("Unique array:", unique);
+‎
