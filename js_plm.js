@@ -517,3 +517,18 @@ let arr = [1,2,3,4,5]
 ‎
 ‎console.log("Second largest:", second);
 ‎
+
+‎
+‎// Write a JavaScript program to find intersection of two arrays.
+‎
+‎let inter = [];
+‎
+‎for (let i = 0; i < a1.length; i++) {
+‎    if (a2.includes(a1[i])) {
+‎        inter.push(a1[i]);
+‎    }
+‎}
+‎
+‎console.log("Intersection:", inter);
+‎
+‎
