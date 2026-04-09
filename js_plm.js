@@ -531,4 +531,14 @@ let arr = [1,2,3,4,5]
 ‎
 ‎console.log("Intersection:", inter);
 ‎
+‎‎//  Write a JavaScript program to count frequency of elements.
+‎
+‎let freq = {};
+‎
+‎for (let i = 0; i < arr1.length; i++) {
+‎    let val = arr1[i];
+‎    freq[val] = (freq[val] || 0) + 1;
+‎}
+‎
+‎console.log("Frequency:", freq);
 ‎
