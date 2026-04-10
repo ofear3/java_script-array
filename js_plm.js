@@ -542,3 +542,17 @@ let arr = [1,2,3,4,5]
 ‎
 ‎console.log("Frequency:", freq);
 ‎
+‎//  Write a JavaScript program to check anagram strings.
+‎
+‎let s1 = "listen";
+‎let s2 = "silent";
+‎
+‎let sort1 = s1.split("").sort().join("");
+‎let sort2 = s2.split("").sort().join("");
+‎
+‎if (sort1 === sort2) {
+‎    console.log("Anagram");
+‎} else {
+‎    console.log("Not Anagram");
+‎}
+‎
