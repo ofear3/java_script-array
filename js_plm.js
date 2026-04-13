@@ -570,3 +570,22 @@ let arr = [1,2,3,4,5]
 ‎
 ‎console.log("Longest word:", longest);
 ‎
+‎//  Write a JavaScript program to flatten a nested array.
+‎
+‎let nested = [1, [2, 3], [4, [5]]];
+‎let flat = [];
+‎
+‎function flatten(arr) {
+‎    for (let i = 0; i < arr.length; i++) {
+‎        if (Array.isArray(arr[i])) {
+‎            flatten(arr[i]);
+‎        } else {
+‎            flat.push(arr[i]);
+‎        }
+‎    }
+‎}
+‎
+‎flatten(nested);
+‎console.log("Flatten:", flat);
+‎
+‎
