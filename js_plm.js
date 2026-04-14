@@ -588,4 +588,14 @@ let arr = [1,2,3,4,5]
 ‎flatten(nested);
 ‎console.log("Flatten:", flat);
 ‎
+‎//  Write a JavaScript program to implement stack (push, pop).
+‎
+‎let stack = [];
+‎
+‎stack.push(10);
+‎stack.push(20);
+‎stack.push(30);
+‎
+‎console.log(stack.pop());
+‎console.log(stack);
 ‎
