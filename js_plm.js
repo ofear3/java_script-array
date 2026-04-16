@@ -610,4 +610,12 @@ let arr = [1,2,3,4,5]
 ‎console.log(queue.shift());
 ‎console.log(queue);
 ‎
+‎‎//  Write a JavaScript program to debounce a function.
 ‎
+‎function debounce(fn, delay) {
+‎    let timer;
+‎    return function () {
+‎        clearTimeout(timer);
+‎        timer = setTimeout(() => fn(), delay);
+‎    };
+‎}
