@@ -619,3 +619,18 @@ let arr = [1,2,3,4,5]
 ‎        timer = setTimeout(() => fn(), delay);
 ‎    };
 ‎}
+
+‎//  Write a JavaScript program to throttle a function.
+‎
+‎function throttle(fn, limit) {
+‎    let wait = false;
+‎    return function () {
+‎        if (!wait) {
+‎            fn();
+‎            wait = true;
+‎            setTimeout(() => wait = false, limit);
+‎        }
+‎    };
+‎}
+‎
+‎
