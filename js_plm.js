@@ -633,4 +633,10 @@ let arr = [1,2,3,4,5]
 ‎    };
 ‎}
 ‎
+‎‎//  Write a JavaScript program to deep clone an object.
 ‎
+‎let obj = { a: 1, b: { c: 2 } };
+‎
+‎let clone = JSON.parse(JSON.stringify(obj));
+‎
+‎console.log(clone);
