@@ -648,4 +648,12 @@ let arr = [1,2,3,4,5]
 ‎if (Object.keys(obj2).length === 0) {
 ‎    console.log("Empty object");
 ‎}
+
+
+‎//  Write a JavaScript program to convert object to array.
 ‎
+‎let obj3 = { name: "Saif", age: 22 };
+‎
+‎let arrObj = Object.entries(obj3);
+‎
+‎console.log(arrObj);‎
