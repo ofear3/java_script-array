@@ -675,3 +675,16 @@ let arr = [1,2,3,4,5]
 ‎} else {
 ‎    console.log("Not Armstrong");
 ‎}
+
+‎//  Write a JavaScript program to find GCD of two numbers.
+‎
+‎let a = 12, b = 18;
+‎
+‎while (b !== 0) {
+‎    let temp = b;
+‎    b = a % b;
+‎    a = temp;
+‎}
+‎
+‎console.log("GCD = " + a);
+‎
