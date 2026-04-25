@@ -717,4 +717,15 @@ let arr = [1,2,3,4,5]
 ‎} else {
 ‎    console.log("Not perfect");
 ‎}
+
+‎//  Write a JavaScript program to print all factors of a number.
 ‎
+‎let n = 12;
+‎
+‎for (let i = 1; i <= n; i++) {
+‎    if (n % i === 0) {
+‎        console.log(i);
+‎    }
+‎}
+‎
+‎‎
