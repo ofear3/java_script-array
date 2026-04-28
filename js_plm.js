@@ -757,3 +757,17 @@ let arr = [1,2,3,4,5]
 ‎    console.log("Not Palindrome");
 ‎}
 ‎
+‎// 65. Write a JavaScript program to find sum of odd numbers from 1 to N.
+‎
+‎let N = 10;
+‎let sumOdd = 0;
+‎
+‎for (let i = 1; i <= N; i++) {
+‎    if (i % 2 !== 0) {
+‎        sumOdd += i;
+‎    }
+‎}
+‎
+‎console.log("Sum of odd = " + sumOdd);
+‎
+‎
