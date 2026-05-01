@@ -798,3 +798,15 @@ let arr = [1,2,3,4,5]
 ‎}
 ‎
 ‎console.log("Even:", even, "Odd:", odd);
+
+
+‎//  Write a JavaScript program to find average of array elements.
+‎
+‎let arr1 = [10,20,30,40];
+‎let sum1 = 0;
+‎
+‎for (let i = 0; i < arr1.length; i++) {
+‎    sum1 += arr1[i];
+‎}
+‎
+‎console.log("Average:", sum1 / arr1.length);
