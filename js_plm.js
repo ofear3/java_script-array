@@ -810,3 +810,12 @@ let arr = [1,2,3,4,5]
 ‎}
 ‎
 ‎console.log("Average:", sum1 / arr1.length);
+
+‎//  Write a JavaScript program to merge two arrays.
+‎
+‎let a1 = [1,2,3];
+‎let a2 = [4,5,6];
+‎
+‎let merged = a1.concat(a2);
+‎
+‎console.log(merged);
