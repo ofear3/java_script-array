@@ -819,3 +819,14 @@ let arr = [1,2,3,4,5]
 ‎let merged = a1.concat(a2);
 ‎
 ‎console.log(merged);
+
+‎//  Write a JavaScript program to reverse an array.
+‎
+‎let arr2 = [1,2,3,4];
+‎let revArr = [];
+‎
+‎for (let i = arr2.length - 1; i >= 0; i--) {
+‎    revArr.push(arr2[i]);
+‎}
+‎
+‎console.log(revArr);
