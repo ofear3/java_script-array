@@ -857,3 +857,11 @@ let arr = [1,2,3,4,5]
 ‎}
 ‎
 ‎console.log(positive);
+
+‎//  Write a JavaScript program to count words in a string.
+‎
+‎let str = "I love JavaScript";
+‎let words = str.split(" ");
+‎
+‎console.log("Word count:", words.length);
+‎
