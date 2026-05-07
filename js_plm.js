@@ -865,3 +865,11 @@ let arr = [1,2,3,4,5]
 ‎
 ‎console.log("Word count:", words.length);
 ‎
+‎//  Write a JavaScript program to capitalize first letter.
+‎
+‎let text = "hello";
+‎let result1 = text.charAt(0).toUpperCase() + text.slice(1);
+‎
+‎console.log(result1);
+‎
+‎
