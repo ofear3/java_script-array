@@ -872,4 +872,18 @@ let arr = [1,2,3,4,5]
 ‎
 ‎console.log(result1);
 ‎
+‎//  Write a JavaScript program to find longest substring length.
 ‎
+‎let s = "abcabcbb";
+‎let maxLen = 0;
+‎
+‎for (let i = 0; i < s.length; i++) {
+‎    let set = new Set();
+‎    for (let j = i; j < s.length; j++) {
+‎        if (set.has(s[j])) break;
+‎        set.add(s[j]);
+‎        maxLen = Math.max(maxLen, j - i + 1);
+‎    }
+‎}
+‎
+‎console.log("Max length:", maxLen);‎
