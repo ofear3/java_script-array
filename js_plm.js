@@ -887,3 +887,12 @@ let arr = [1,2,3,4,5]
 ‎}
 ‎
 ‎console.log("Max length:", maxLen);‎
+
+
+‎//  Write a JavaScript program to check substring exists.
+‎
+‎let main = "javascript";
+‎let sub = "script";
+‎
+‎console.log(main.includes(sub));
+‎
