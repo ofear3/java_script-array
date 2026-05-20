@@ -981,3 +981,16 @@ console.log("Factorial of " + number + " is: i" + factorial);
 ‎    fact *= i;
 ‎}
 ‎console.log("Factorial is: " + fact);
+
+
+// Write a JavaScript program to find the factorial of a number.
+
+let number = 5;
+let factorial = 1;
+
+for (let i = 1; i <= number; i++) {
+    factorial = factorial * i;
+}
+
+console.log("Factorial of " + number + " is: i" + factorial);
+
