@@ -1072,3 +1072,24 @@ let arr = [1,2,3,4,5]
 ‎}
 ‎console.log("Factorial is: " + fact);
 
+// Write a JavaScript program to check whether a given number is a prime number.
+
+let number = 7;
+let isPrime = true;
+
+if (number <= 1) {
+    isPrime = false;
+} else {
+    for (let i = 2; i < number; i++) {
+        if (number % i === 0) {
+            isPrime = false;
+            break;
+        }
+    }
+}
+
+if (isPrime) {
+    console.log(number + " is a Prime number");
+} else {
+    console.log(number + " is not a Prime number");
+}
