@@ -1099,3 +1099,12 @@ if (isPrime) {
 ‎for (let i = 1; i <= 10; i++) {
 ‎    console.log(i);
 ‎}
+
+‎//  Write a JavaScript program to check if a number is even or odd.
+‎
+‎let number = 7;
+‎if (number % 2 === 0) {
+‎    console.log("Even");
+‎} else {
+‎    console.log("Odd");
+‎}
