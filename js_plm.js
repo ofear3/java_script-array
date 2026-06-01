@@ -1124,3 +1124,14 @@ if (isPrime) {
 ‎    console.log("Not Palindrome");
 ‎}
 
+‎//  Write a JavaScript program to find the sum of elements in an array.
+‎
+let arr = [1,2,3,4,5]
+
+‎let total = 0;
+‎
+‎for (let i = 0; i < arr.length; i++) {
+‎    total += arr[i];
+‎}
+‎
+‎console.log("Array sum: " + total);
