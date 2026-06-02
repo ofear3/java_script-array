@@ -1135,3 +1135,17 @@ let arr = [1,2,3,4,5]
 ‎}
 ‎
 ‎console.log("Array sum: " + total);
+
+// Write a JavaScript program to find the largest number in an array.
+‎
+‎let arr = [5, 12, 8, 20, 3];
+‎let max = arr[0];
+‎
+‎for (let i = 1; i < arr.length; i++) {
+‎    if (arr[i] > max) {
+‎        max = arr[i];
+‎    }
+‎}
+‎
+‎console.log("Largest number: " + max);
+
