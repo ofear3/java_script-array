@@ -1318,3 +1318,15 @@ let arr = [1,2,3,4,5]
 ‎for (let i = 1; i <= 10; i++) {
 ‎    console.log(3 * i);
 ‎}
+
+// Write a JavaScript program to count digits of a number.
+‎
+‎let digitNumber = 12345;
+‎let digitCount = 0;
+‎
+‎while (digitNumber > 0) {
+‎    digitCount++;
+‎    digitNumber = Math.floor(digitNumber / 10);
+‎}
+‎
+‎console.log("Digit count: " + digitCount);
