@@ -1343,3 +1343,16 @@ let arr = [1,2,3,4,5]
 ‎
 ‎console.log("Reversed: " + reversed);
 ‎
+
+‎//  Write a JavaScript program to calculate the average of 5 numbers.
+‎
+‎let a = 10;
+‎let b = 20;
+‎let c = 30;
+‎let d = 40;
+‎let e = 50;
+‎
+‎let avg = (a + b + c + d + e) / 5;
+‎
+‎console.log("Average = " + avg);
+
