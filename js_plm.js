@@ -1394,3 +1394,15 @@ let arr = [1,2,3,4,5]
 ‎} else {
 ‎    console.log("Zero");
 ‎}
+
+//  Write a JavaScript program to reverse a string.
+‎
+‎let str = "hello";
+‎let reversed = "";
+‎
+‎for (let i = str.length - 1; i >= 0; i--) {
+‎    reversed += str[i];
+‎}
+‎
+‎console.log("Reversed: " + reversed);
+
