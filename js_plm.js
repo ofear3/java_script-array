@@ -1406,3 +1406,15 @@ let arr = [1,2,3,4,5]
 ‎
 ‎console.log("Reversed: " + reversed);
 
+
+‎// Write a JavaScript program to find the largest of two numbers.
+‎
+‎let a = 10;
+‎let b = 20;
+‎Z
+‎if (a > b) {
+‎    console.log("Largest is: " + a);
+‎} else {
+‎    console.log("Largest is: " + b);
+‎}
+
