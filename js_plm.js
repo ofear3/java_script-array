@@ -1450,3 +1450,16 @@ let arr = [1,2,3,4,5]
 ‎    fact *= i;
 ‎}
 ‎console.log("Factorial is: " + fact);
+
+‎// Write a JavaScript program to find the smallest number in an array.
+‎
+‎let min = arr[0];
+‎
+‎for (let i = 1; i < arr.length; i++) {
+‎    if (arr[i] < min) {
+‎        min = arr[i];
+‎    }
+‎}
+‎
+‎console.log("Smallest number: " + min);
+
