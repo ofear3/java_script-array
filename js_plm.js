@@ -1473,3 +1473,15 @@ for (let i = 1; i <= number; i++) {
 }
 
 console.log("Factorial of " + number + " is: i" + factorial);
+
+//  Write a JavaScript program to reverse a string.
+‎
+‎let str = "hello";
+‎let reversed = "";
+‎
+‎for (let i = str.length - 1; i >= 0; i--) {
+‎    reversed += str[i];
+‎}
+‎
+‎console.log("Reversed: " + reversed);
+‎
